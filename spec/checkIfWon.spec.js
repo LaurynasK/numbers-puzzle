@@ -31,7 +31,7 @@ describe("function should check if array is completed ", () => {
         expect(checkedArray).toBeFalsy();
     });
 
-    it("negative - input is random (not array and int) ", () => {
+    it("negative - input is random (not array) ", () => {
         const random = {
             table: 234,
             size: "random"

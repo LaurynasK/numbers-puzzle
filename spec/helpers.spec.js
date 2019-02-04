@@ -15,7 +15,6 @@ describe(("helper function check for duplicates "), () => {
         expect(result).toBeFalsy();
     })
 
-
 });
 
 describe("helper function to check if input is numbers by ", () => {
