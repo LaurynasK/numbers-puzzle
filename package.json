@@ -1,0 +1,24 @@
+{
+  "name": "express-cli",
+  "version": "1.0.0",
+  "description": "cli app",
+  "main": "server.js",
+  "scripts": {
+    "test-init": "./node_modules/jasmine/bin/jasmine.js init",
+    "test": "./node_modules/jasmine/bin/jasmine.js"
+  },
+  "keywords": [
+    "cli",
+    "application",
+    "puzzle",
+    "game"
+  ],
+  "author": "Laurynas",
+  "license": "MIT",
+  "dependencies": {
+    "table": "^5.2.2"
+  },
+  "devDependencies": {
+    "jasmine": "^3.3.1"
+  }
+}
